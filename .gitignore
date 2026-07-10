@@ -1,0 +1,57 @@
+### Backend (Gradle / Spring Boot) ###
+app/backend/HELP.md
+app/backend/.gradle
+app/backend/build/
+!app/backend/gradle/wrapper/gradle-wrapper.jar
+!app/backend/**/src/main/**/build/
+!app/backend/**/src/test/**/build/
+
+### STS ###
+app/backend/.apt_generated
+app/backend/.classpath
+app/backend/.factorypath
+app/backend/.project
+app/backend/.settings
+app/backend/.springBeans
+app/backend/.sts4-cache
+app/backend/bin/
+!app/backend/**/src/main/**/bin/
+!app/backend/**/src/test/**/bin/
+
+### NetBeans ###
+app/backend/nbproject/private/
+app/backend/nbbuild/
+app/backend/dist/
+app/backend/nbdist/
+app/backend/.nb-gradle/
+
+### Frontend (Node / Vite) ###
+app/frontend/node_modules
+app/frontend/dist
+app/frontend/dist-ssr
+app/frontend/*.local
+app/frontend/.env
+app/frontend/npm-debug.log*
+app/frontend/yarn-debug.log*
+app/frontend/yarn-error.log*
+app/frontend/pnpm-debug.log*
+app/frontend/lerna-debug.log*
+
+### Logs (global) ###
+logs
+*.log
+
+### IDE / OS (global) ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
