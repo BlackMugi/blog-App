@@ -55,3 +55,8 @@ out/
 *.njsproj
 *.sln
 *.sw?
+
+
+## Sensible ##
+.application-local.yml
+app/backend/src/main/resources/application-local.yml
